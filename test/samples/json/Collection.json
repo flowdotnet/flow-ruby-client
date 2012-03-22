@@ -1,0 +1,26 @@
+{ "actions" : { "delete" : true,
+      "read" : true,
+      "write" : true
+    },
+  "creationDate" : 1319802222820,
+  "creatorId" : "4da4d1f4c528272a64ce1a48",
+  "id" : "4eaacd9f5bc12b6254000004",
+  "lastEditDate" : 1330442403990,
+  "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+  "name" : "Yeahsdasd",
+  "permissions" : { "delete" : { "access" : "include",
+          "value" : [  ]
+        },
+      "read" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "write" : { "access" : "include",
+          "value" : [  ]
+        }
+    },
+  "references" : [ "4eaacd89e4b08f35cd6f1f2f",
+      "4f0e05d1e4b0ca7da651ca60",
+      "4e837cede4b095abc53b5f17"
+    ],
+  "type" : "flow"
+}

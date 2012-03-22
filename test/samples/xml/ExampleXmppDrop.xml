@@ -1,0 +1,32 @@
+<iq id="publish-drop-at-4e665ed2e4b0ac168133ff28" to="baseapp#bob@localhost/3621343293009237187" from="pubsub.xmpp.flow.net" type="result">
+  <query xmlns="flow:pubsub">
+    <drop>
+      <id type='id'>4f5e5ab5e4b044878bd7064a</id>
+      <lastEditorId type='id'>4da4d1f5c528272a64ce1a50</lastEditorId>
+      <creatorId type='id'>4da4d1f5c528272a64ce1a50</creatorId>
+      <lastEditDate type='date'>1331583669534</lastEditDate>
+      <version type='integer'>0</version>
+      <creator type='map'>
+        <alias type='string'>bob</alias>
+        <fname type='string'>Bob</fname>
+        <lname type='string'>Siddharta</lname>
+      </creator>
+      <creationDate type='date'>1331583669534</creationDate>
+      <path type='path'>/identity/bob/2222</path>
+      <elems type='map'>
+        <title type='string'>r</title>
+        <description type='text'>
+          <format type='string'>html</format>
+          <content type='string'>f</content>
+          <safe type='boolean'>true</safe>
+        </description>
+      </elems>
+      <flowId type='id'>4e665ed2e4b0ac168133ff28</flowId>
+      <actions type='map'>
+        <read type='boolean'>true</read>
+        <write type='boolean'>true</write>
+        <delete type='boolean'>true</delete>
+      </actions>
+    </drop>
+  </query>
+</iq>

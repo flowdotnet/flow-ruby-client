@@ -1,0 +1,41 @@
+{ "actions" : { "delete" : true,
+      "read" : true,
+      "write" : true
+    },
+  "creationDate" : 1302667537860,
+  "creator" : { "alias" : "flowcurator",
+      "fname" : "Flow",
+      "lname" : "Curator"
+    },
+  "creatorId" : "4da4d4548065931503b37e5d",
+  "elems" : { "author" : { "type" : "string",
+          "value" : "Sid Yadav"
+        },
+      "description" : { "type" : "text",
+          "value" : { "content" : { "type" : "string",
+                  "value" : "Pieceable, a stealth startup that helps non-developers create applications for Apple’s iPhone is launching an online tool today that lets you run and test fully-functional copies of iPhone applications using a web browser. The tool, called Pieceable Viewer, is an attempt to simplify the process of sharing work-in-progress iPhone applications with colleagues and clients. Developers run a single-line command to build their applications as usual, and upload it to the service, which returns a link to their application that they can share with others. The product uses Adobe’s Flash technology to simulate the functionality of its applications. Under current circumstances, the process of sharing a work-in-progress application involves a tedious exchange of device IDs and is restricted with a limit prohibiting more than 100 developers from testing an application. Users can try out the technology through showcased applications for services such as Yelp, Hipmunk, and Foodspotting. Amazon Appstore, an application store for Google’s Android platform, launched last month featuring a similar web-based application viewer for selected applications in its store. According to TechCrunch, the Pieceable Viewer will also be supporting Android applications in the coming weeks. Pieceable was a part of the Startup Accelerator program at San Francisco-based i/o Ventures a three-month program geared toward early stage startups. Tags: Pieceable Viewer Companies: Pieceable --> "
+                },
+              "format" : { "type" : "string",
+                  "value" : "text"
+                },
+              "safe" : { "type" : "boolean",
+                  "value" : false
+                }
+            }
+        },
+      "link" : { "type" : "string",
+          "value" : "http://feeds.venturebeat.com/~r/Venturebeat/~3/Ph5Vwe4hl7M/"
+        },
+      "published" : { "type" : "date",
+          "value" : 1302646074
+        },
+      "title" : { "type" : "string",
+          "value" : "Pieceable Viewer lets developers test iPhone apps in a web browser"
+        }
+    },
+  "flowId" : "4da4d4fe8065931503b37e78",
+  "id" : "4da521118065931503b3815b",
+  "lastEditDate" : 1302667537860,
+  "lastEditorId" : "4da4d4548065931503b37e5d",
+  "path" : "/system/exchange_information/share/content"
+}

@@ -1,0 +1,56 @@
+<iq id='publish-drop-at-4e665ed2e4b0ac168133ff28' to='baseapp#bob@localhost/5935225775244615834' from='pubsub.xmpp.flow.net' type='result'>
+  <query xmlns="flow:pubsub">
+    <drop>
+      <id type='id'>4f5e5c2be4b044878bd7065d</id>
+      <lastEditorId type='id'>4da4d1f5c528272a64ce1a50</lastEditorId>
+      <creatorId type='id'>4da4d1f5c528272a64ce1a50</creatorId>
+      <lastEditDate type='date'>1331584043634</lastEditDate>
+      <version type='integer'>0</version>
+      <creator type='map'>
+        <alias type='string'>bob</alias>
+        <fname type='string'>Bob</fname>
+        <lname type='string'>Siddharta</lname>
+      </creator>
+      <creationDate type='date'>1331584043634</creationDate>
+      <path type='path'>/identity/bob/2222</path>
+      <elems type='map'>
+        <description type='text'>
+          <format type='string'>html</format>
+          <content type='string'>TEST</content>
+          <safe type='boolean'>true</safe>
+        </description>
+        <adate type='date'>1332820800000</adate>
+        <mediaa type='media'>
+          <mime_type type='string'>text/html</mime_type>
+          <title type='string'>Flow.html</title>
+          <url type='string'>http://tfile.flow.net/get/4f5e5c0ce4b044878bd7065a</url>
+        </mediaa>
+        <aloc type='location'>
+          <lat type='float'>40.7562103</lat>
+          <lon type='float'>-73.82118830000002</lon>
+          <specifiers type='map'>
+            <zip type='string'>11355</zip>
+            <street type='string'>42-40 Bowne St</street>
+            <state type='string'>NY</state>
+          </specifiers>
+        </aloc>
+        <rich type='text'>
+          <format type='string'>html</format>
+          <content type='string'>Some 
+          <b>Rich</b>Text</content>
+          <safe type='boolean'>true</safe>
+        </rich>
+        <text type='string'>some text</text>
+        <yn type='boolean'>true</yn>
+        <aurl type='url'>http://www.google.com</aurl>
+        <title type='string'>TEST</title>
+      </elems>
+      <flowId type='id'>4e665ed2e4b0ac168133ff28</flowId>
+      <actions type='map'>
+        <read type='boolean'>true</read>
+        <write type='boolean'>true</write>
+        <delete type='boolean'>true</delete>
+      </actions>
+    </drop>
+  </query>
+</iq>

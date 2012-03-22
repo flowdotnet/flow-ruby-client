@@ -1,0 +1,31 @@
+{ "actions" : { "delete" : true,
+      "read" : true,
+      "write" : true
+    },
+  "creationDate" : 1302647915597,
+  "creator" : { "alias" : "naniweinberg",
+      "fname" : "Nani",
+      "lname" : "Weinberg"
+    },
+  "creatorId" : "4da4d4268065931503b37b3b",
+  "displayName" : "Venture",
+  "id" : "4da4d46b8065931503b37e64",
+  "identities" : [ "4da4d44e8065931503b37e05",
+      "4da4d43e8065931503b37d2f",
+      "4da4d4408065931503b37d4f",
+      "4da4d43e8065931503b37d27"
+    ],
+  "lastEditDate" : 1302647915597,
+  "lastEditorId" : "4da4d4268065931503b37b3b",
+  "name" : "naniweinberg:Venture",
+  "permissions" : { "delete" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "read" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "write" : { "access" : "exclude",
+          "value" : [  ]
+        }
+    }
+}

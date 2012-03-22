@@ -1,0 +1,12 @@
+{ "id" : "4f04c538e4b0ce928c78ca80",
+  "name" : "days",
+  "path" : "/lists/#days",
+  "values" : [ "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+}

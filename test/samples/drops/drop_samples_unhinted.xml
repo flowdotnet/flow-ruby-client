@@ -1,0 +1,268 @@
+<results>
+  <result>
+    <id>4f577ce330049adda8687a82</id>
+    <fhash>AQXFpjfDXp</fhash>
+    <flags>
+      <adult>1</adult>
+    </flags>
+    <weight>1606149747</weight>
+    <lasteditorid>4f577ce330049adda8687a81</lasteditorid>
+    <creatorid>4f577ce330049adda8687a80</creatorid>
+    <lasteditdate>1331133667853</lasteditdate>
+    <parentdropid>4f577ce330049adda8687a7f</parentdropid>
+    <creationdate>1331133667853</creationdate>
+    <path>/test/samples</path>
+    <ratings>
+      <avg>3.0</avg>
+      <votes>1</votes>
+      <history>
+        <votes_for_0>0</votes_for_0>
+        <votes_for_1>0</votes_for_1>
+        <votes_for_2>0</votes_for_2>
+        <votes_for_3>1</votes_for_3>
+        <votes_for_4>0</votes_for_4>
+        <votes_for_5>0</votes_for_5>
+        <votes_for_6>0</votes_for_6>
+        <votes_for_7>0</votes_for_7>
+        <votes_for_8>0</votes_for_8>
+        <votes_for_9>0</votes_for_9>
+        <votes_for_10>0</votes_for_10>
+      </history>
+    </ratings>
+    <flowid>111111111111111111111111</flowid>
+    <elems>
+      <string type="string">a string</string>
+      <double type="float">0.27918789880679074</double>
+      <boolean type="boolean">true</boolean>
+      <date type="date">-5182434507407376023</date>
+      <integer type="integer">-1683365352</integer>
+      <byte type="bytes">VEhJU0lTUkFORE9N</byte>
+    </elems>
+    <actions>
+      <read>true</read>
+      <write>true</write>
+      <delete>true</delete>
+    </actions>
+  </result>
+  <result>
+    <id>4f577ce330049adda8687a87</id>
+    <fhash>JEIrtUuWLZ</fhash>
+    <flags>
+      <adult>1</adult>
+    </flags>
+    <weight>649581839</weight>
+    <lasteditorid>4f577ce330049adda8687a86</lasteditorid>
+    <creatorid>4f577ce330049adda8687a85</creatorid>
+    <lasteditdate>1331133667858</lasteditdate>
+    <parentdropid>4f577ce330049adda8687a84</parentdropid>
+    <creationdate>1331133667858</creationdate>
+    <path>/test/samples</path>
+    <ratings>
+      <avg>5.0</avg>
+      <votes>1</votes>
+      <history>
+        <votes_for_0>0</votes_for_0>
+        <votes_for_1>0</votes_for_1>
+        <votes_for_2>0</votes_for_2>
+        <votes_for_3>0</votes_for_3>
+        <votes_for_4>0</votes_for_4>
+        <votes_for_5>1</votes_for_5>
+        <votes_for_6>0</votes_for_6>
+        <votes_for_7>0</votes_for_7>
+        <votes_for_8>0</votes_for_8>
+        <votes_for_9>0</votes_for_9>
+        <votes_for_10>0</votes_for_10>
+      </history>
+    </ratings>
+    <flowid>111111111111111111111111</flowid>
+    <elems>
+      <email type="email">oemfjfjaio@test.com</email>
+      <url type="url">http://rgHzRCJUcQ.com</url>
+      <upc type="upc">PFWIdMAUND</upc>
+      <vin type="vin">oUqQeFWXFt</vin>
+      <isbn type="isbn">cGuLpaQtdF</isbn>
+      <phone type="phone">PMFCWUpXoR</phone>
+    </elems>
+    <actions>
+      <read>true</read>
+      <write>true</write>
+      <delete>true</delete>
+    </actions>
+  </result>
+  <result>
+    <id>4f577ce330049adda8687a8c</id>
+    <fhash>gdzqeCTVcF</fhash>
+    <flags>
+      <adult>1</adult>
+    </flags>
+    <weight>1848218696</weight>
+    <lasteditorid>4f577ce330049adda8687a8b</lasteditorid>
+    <creatorid>4f577ce330049adda8687a8a</creatorid>
+    <lasteditdate>1331133667859</lasteditdate>
+    <parentdropid>4f577ce330049adda8687a89</parentdropid>
+    <creationdate>1331133667859</creationdate>
+    <path>/test/samples</path>
+    <ratings>
+      <avg>0.0</avg>
+      <votes>1</votes>
+      <history>
+        <votes_for_0>1</votes_for_0>
+        <votes_for_1>0</votes_for_1>
+        <votes_for_2>0</votes_for_2>
+        <votes_for_3>0</votes_for_3>
+        <votes_for_4>0</votes_for_4>
+        <votes_for_5>0</votes_for_5>
+        <votes_for_6>0</votes_for_6>
+        <votes_for_7>0</votes_for_7>
+        <votes_for_8>0</votes_for_8>
+        <votes_for_9>0</votes_for_9>
+        <votes_for_10>0</votes_for_10>
+      </history>
+    </ratings>
+    <flowid>111111111111111111111111</flowid>
+    <elems>
+      <location type="location">
+        <lat type="float">0.06031791922725516</lat>
+        <lon type="float">0.6709274265862697</lon>
+        <specifiers type="map">
+          <street type="string">42-40 Bowne St.</street>
+          <state type="string">NY</state>
+          <zip type="string">11355</zip>
+        </specifiers>
+      </location>
+      <bucketref type="flowRef">4f577ce230049adda8687a65</bucketref>
+      <text type="text">
+        <format type="string">html</format>
+        <content type="string">some text</content>
+        <safe type="boolean">true</safe>
+      </text>
+      <color type="color">
+        <red type="integer">71</red>
+        <green type="integer">58</green>
+        <blue type="integer">130</blue>
+        <alpha type="integer">255</alpha>
+      </color>
+      <range type="range">
+        <start type="integer">2101730248</start>
+        <end type="integer">-1253485204</end>
+        <step type="integer">-602116970</step>
+      </range>
+      <media type="media">
+        <text type="string">some text</text>
+        <version type="string">1.0</version>
+        <title type="string">some title</title>
+        <type type="string">HTML</type>
+        <this will="" get="" ignored="" type="string">ANY</this>
+      </media>
+      <dropref type="dropRef">
+        <flowid type="id">4f577ce230049adda8687a66</flowid>
+        <dropid type="id">4f577ce230049adda8687a67</dropid>
+      </dropref>
+    </elems>
+    <actions>
+      <read>true</read>
+      <write>true</write>
+      <delete>true</delete>
+    </actions>
+  </result>
+  <result>
+    <id>4f577ce330049adda8687a91</id>
+    <fhash>VzNLMWaNdi</fhash>
+    <flags>
+      <adult>1</adult>
+    </flags>
+    <weight>1643549136</weight>
+    <lasteditorid>4f577ce330049adda8687a90</lasteditorid>
+    <creatorid>4f577ce330049adda8687a8f</creatorid>
+    <lasteditdate>1331133667863</lasteditdate>
+    <parentdropid>4f577ce330049adda8687a8e</parentdropid>
+    <creationdate>1331133667863</creationdate>
+    <path>/test/samples</path>
+    <ratings>
+      <avg>1.0</avg>
+      <votes>1</votes>
+      <history>
+        <votes_for_0>0</votes_for_0>
+        <votes_for_1>1</votes_for_1>
+        <votes_for_2>0</votes_for_2>
+        <votes_for_3>0</votes_for_3>
+        <votes_for_4>0</votes_for_4>
+        <votes_for_5>0</votes_for_5>
+        <votes_for_6>0</votes_for_6>
+        <votes_for_7>0</votes_for_7>
+        <votes_for_8>0</votes_for_8>
+        <votes_for_9>0</votes_for_9>
+        <votes_for_10>0</votes_for_10>
+      </history>
+    </ratings>
+    <flowid>111111111111111111111111</flowid>
+    <elems>
+      <treemap type="sortedMap">
+        <a type="integer">1</a>
+        <b type="integer">2</b>
+      </treemap>
+      <treeset type="sortedSet">
+        <item type="string">A</item>
+        <item type="string">B</item>
+        <item type="string">C</item>
+      </treeset>
+      <hashmap type="map">
+        <a type="integer">1</a>
+        <b type="integer">2</b>
+      </hashmap>
+      <arraylist type="list">
+        <item type="string">A</item>
+        <item type="string">B</item>
+        <item type="string">C</item>
+      </arraylist>
+      <hashset type="set">
+        <item type="string">A</item>
+        <item type="string">B</item>
+        <item type="string">C</item>
+      </hashset>
+    </elems>
+    <actions>
+      <read>true</read>
+      <write>true</write>
+      <delete>true</delete>
+    </actions>
+  </result>
+  <result>
+    <id>4f577ce330049adda8687a96</id>
+    <fhash>jtUAENIyGl</fhash>
+    <flags>
+      <adult>1</adult>
+    </flags>
+    <weight>2033775837</weight>
+    <lasteditorid>4f577ce330049adda8687a95</lasteditorid>
+    <creatorid>4f577ce330049adda8687a94</creatorid>
+    <lasteditdate>1331133667864</lasteditdate>
+    <parentdropid>4f577ce330049adda8687a93</parentdropid>
+    <creationdate>1331133667864</creationdate>
+    <path>/test/samples</path>
+    <ratings>
+      <avg>3.0</avg>
+      <votes>1</votes>
+      <history>
+        <votes_for_0>0</votes_for_0>
+        <votes_for_1>0</votes_for_1>
+        <votes_for_2>0</votes_for_2>
+        <votes_for_3>1</votes_for_3>
+        <votes_for_4>0</votes_for_4>
+        <votes_for_5>0</votes_for_5>
+        <votes_for_6>0</votes_for_6>
+        <votes_for_7>0</votes_for_7>
+        <votes_for_8>0</votes_for_8>
+        <votes_for_9>0</votes_for_9>
+        <votes_for_10>0</votes_for_10>
+      </history>
+    </ratings>
+    <flowid>111111111111111111111111</flowid>
+    <elems></elems>
+    <actions>
+      <read>true</read>
+      <write>true</write>
+      <delete>true</delete>
+    </actions>
+  </result>
+</results>

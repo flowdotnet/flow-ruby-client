@@ -1,0 +1,29 @@
+{ "actions" : { "delete" : true,
+      "read" : true,
+      "write" : true
+    },
+  "alias" : "alice",
+  "appIds" : [ "000000000000000000000001",
+      "000000000000000000000002"
+    ],
+  "avatar" : "http://tfile.flow.net/get/4f4699d6e4b06dad5bcfed57",
+  "creationDate" : 1302647284905,
+  "creatorId" : "000000000000000000000001",
+  "firstName" : "Alice",
+  "groupIds" : [  ],
+  "id" : "4da4d1f4c528272a64ce1a48",
+  "lastEditDate" : 1330026966960,
+  "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+  "lastName" : "Mouser",
+  "permissions" : { "delete" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "read" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "write" : { "access" : "exclude",
+          "value" : [  ]
+        }
+    },
+  "userId" : "4da4d1f4c528272a64ce1a47"
+}

@@ -1,0 +1,87 @@
+{
+   "acolor" : { "type" : "color", "value" : {"red":10, "green":20, "blue":30 }},
+   "source_url":{
+      "type":"string",
+      "value":"http://www.nyfocusgroups.com/"
+   },
+   "start_date":{
+      "type":"date",
+      "value":1309211078000
+   },
+   "location":{
+      "type":"location",
+      "value":{
+         "lat":{
+            "type":"float",
+            "value":40.7143528
+         },
+         "lon":{
+            "type":"float",
+            "value":-74.00597309999999
+         },
+         "specifiers":{
+            "type":"map",
+            "value":{
+               "state":{
+                  "type":"string",
+                  "value":"NY"
+               },
+               "zip":{
+                  "type":"string",
+                  "value":""
+               },
+               "street":{
+                  "type":"string",
+                  "value":""
+               },
+               "city":{
+                  "type":"string",
+                  "value":"New York"
+               }
+            }
+         }
+      }
+   },
+   "description":{
+      "type":"text",
+      "value":{
+         "format":{
+            "type":"string",
+            "value":"text"
+         },
+         "content":{
+            "type":"string",
+            "value":"Overview: Our Company has been headquartered in Manhattan since our founding in 2011. As such, the majority of our focus group recruitment takes place in and around the New York City area. We are a growing company with plans to place thousands of panelists into research studies over the next year. Our Team: Our team comes from a variety of research backgrounds"
+         },
+         "safe":{
+            "type":"boolean",
+            "value":false
+         }
+      }
+   },
+   "event_name":{
+      "type":"string",
+      "value":"New York Focus Groups"
+   },
+   "ticket":{
+      "type":"url",
+      "value":"http://"
+   },
+   "thumbnail":{
+      "type":"media",
+      "value":{
+         "url":{
+            "type":"string",
+            "value":"http://file.flow.net/get/4e08f9b1e4b0e22ad619d742"
+         }
+      }
+   },
+   "end_date":{
+      "type":"date",
+      "value":1374983940000
+   },
+   "title":{
+      "type":"string",
+      "value":"New York Focus Groups"
+   }
+}

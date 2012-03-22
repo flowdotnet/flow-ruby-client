@@ -1,0 +1,372 @@
+{ "actions" : { "delete" : false,
+      "read" : true,
+      "write" : false
+    },
+  "applicationTemplate" : { "userBuckets" : [ { "description" : "Me dropified for BWD",
+            "displayName" : "BWD: Me",
+            "dropElements" : [ { "class" : "string",
+                  "description" : "Avatar URI",
+                  "name" : "avatar",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Charisma",
+                  "name" : "chr",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Constitution",
+                  "name" : "con",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Dexterity",
+                  "name" : "dex",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "First Name",
+                  "name" : "firstname",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Identity Identifier",
+                  "name" : "identity",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Intelligence",
+                  "name" : "int",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Last Name",
+                  "name" : "lastname",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Luck",
+                  "name" : "luc",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Strength",
+                  "name" : "str",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Action to be taken",
+                  "name" : "verb",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Wisdom",
+                  "name" : "wis",
+                  "required" : true
+                }
+              ],
+            "name" : "me"
+          },
+          { "description" : "All drops in",
+            "displayName" : "BWD: In",
+            "dropElements" : [ { "class" : "string",
+                  "description" : "Avatar URI",
+                  "name" : "avatar",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Charisma",
+                  "name" : "chr",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Constitution",
+                  "name" : "con",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Dexterity",
+                  "name" : "dex",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "First Name",
+                  "name" : "firstname",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Identity Identifier",
+                  "name" : "identity",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Intelligence",
+                  "name" : "int",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Last Name",
+                  "name" : "lastname",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Luck",
+                  "name" : "luc",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Strength",
+                  "name" : "str",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Action to be taken",
+                  "name" : "verb",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Wisdom",
+                  "name" : "wis",
+                  "required" : true
+                }
+              ],
+            "name" : "in"
+          },
+          { "description" : "Mmmm...",
+            "displayName" : "BWD: Bed",
+            "dropElements" : [ { "class" : "string",
+                  "description" : "Avatar URI",
+                  "name" : "avatar",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Charisma",
+                  "name" : "chr",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Constitution",
+                  "name" : "con",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Dexterity",
+                  "name" : "dex",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "First Name",
+                  "name" : "firstname",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Identity Identifier",
+                  "name" : "identity",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Intelligence",
+                  "name" : "int",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Last Name",
+                  "name" : "lastname",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Luck",
+                  "name" : "luc",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Strength",
+                  "name" : "str",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Action to be taken",
+                  "name" : "verb",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Wisdom",
+                  "name" : "wis",
+                  "required" : true
+                }
+              ],
+            "name" : "fuck"
+          },
+          { "description" : "In a perfect world I'd wed these people.",
+            "displayName" : "BWD: Wed",
+            "dropElements" : [ { "class" : "string",
+                  "description" : "Avatar URI",
+                  "name" : "avatar",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Charisma",
+                  "name" : "chr",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Constitution",
+                  "name" : "con",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Dexterity",
+                  "name" : "dex",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "First Name",
+                  "name" : "firstname",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Identity Identifier",
+                  "name" : "identity",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Intelligence",
+                  "name" : "int",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Last Name",
+                  "name" : "lastname",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Luck",
+                  "name" : "luc",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Strength",
+                  "name" : "str",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Action to be taken",
+                  "name" : "verb",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Wisdom",
+                  "name" : "wis",
+                  "required" : true
+                }
+              ],
+            "name" : "marry"
+          },
+          { "description" : "I wish these people die.",
+            "displayName" : "BWD: Dead",
+            "dropElements" : [ { "class" : "string",
+                  "description" : "Avatar URI",
+                  "name" : "avatar",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Charisma",
+                  "name" : "chr",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Constitution",
+                  "name" : "con",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Dexterity",
+                  "name" : "dex",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "First Name",
+                  "name" : "firstname",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Identity Identifier",
+                  "name" : "identity",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Intelligence",
+                  "name" : "int",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Last Name",
+                  "name" : "lastname",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Luck",
+                  "name" : "luc",
+                  "required" : true
+                },
+                { "class" : "integer",
+                  "description" : "Strength",
+                  "name" : "str",
+                  "required" : true
+                },
+                { "class" : "string",
+                  "description" : "Action to be taken",
+                  "name" : "verb",
+                  "required" : false
+                },
+                { "class" : "integer",
+                  "description" : "Wisdom",
+                  "name" : "wis",
+                  "required" : true
+                }
+              ],
+            "name" : "kill"
+          }
+        ],
+      "userTracks" : [ { "filter" : "verb == 'FUCK'",
+            "from" : "in",
+            "to" : "fuck"
+          },
+          { "filter" : "verb == 'MARRY'",
+            "from" : "in",
+            "to" : "marry"
+          },
+          { "filter" : "verb == 'KILL'",
+            "from" : "in",
+            "to" : "kill"
+          }
+        ]
+    },
+  "creationDate" : 1302712368615,
+  "creator" : { "alias" : "jeffreyolchovy",
+      "fname" : "Jeffrey",
+      "lname" : "Olchovy"
+    },
+  "creatorId" : "4da4d4288065931503b17b67",
+  "description" : "The game of Bed, Wed Dead",
+  "displayName" : "Bed, Wed Dead",
+  "email" : "joe@flow.net",
+  "icon" : "http://file.flow.net/get/4da5debe8065de1c446aeb0d",
+  "id" : "4da5d0308065de1c446aea5f",
+  "isDiscoverable" : true,
+  "isInviteOnly" : true,
+  "lastEditDate" : 1304614520040,
+  "lastEditorId" : "4da4d4288065931503b37b64",
+  "name" : "fmk",
+  "permissions" : { "delete" : { "access" : "include",
+          "value" : [  ]
+        },
+      "read" : { "access" : "include",
+          "value" : [  ]
+        },
+      "write" : { "access" : "include",
+          "value" : [  ]
+        }
+    },
+  "url" : "http://184.73.75.202/"
+}

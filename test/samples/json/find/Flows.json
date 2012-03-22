@@ -1,0 +1,427 @@
+{
+  "head":{
+    "ok":true,
+    "messages":[["start","0"],["limit","10"],["sort","creationDate"]],
+    "errors":[]
+  },
+  "body":[ { "actions" : { "delete" : true,
+        "dropDelete" : true,
+        "dropRead" : true,
+        "dropWrite" : true,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647284965,
+    "creator" : { "alias" : "alice",
+        "fname" : "Alice",
+        "lname" : "Mouser"
+      },
+    "creatorId" : "4da4d1f4c528272a64ce1a48",
+    "dropPermissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f4c528272a64ce1a49",
+    "lastEditDate" : 1302647284965,
+    "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+    "local" : false,
+    "name" : "alice",
+    "path" : "/identity/alice",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : true,
+        "read" : true,
+        "write" : false
+      },
+    "creationDate" : 1302647285014,
+    "creator" : { "alias" : "alice",
+        "fname" : "Alice",
+        "lname" : "Mouser"
+      },
+    "creatorId" : "4da4d1f4c528272a64ce1a48",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a4a",
+    "lastEditDate" : 1302647285014,
+    "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+    "local" : false,
+    "name" : "Inbox",
+    "path" : "/identity/alice/:inbox",
+    "permissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : false,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285220,
+    "creator" : { "alias" : "alice",
+        "fname" : "Alice",
+        "lname" : "Mouser"
+      },
+    "creatorId" : "4da4d1f4c528272a64ce1a48",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a4c",
+    "lastEditDate" : 1302647285220,
+    "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+    "local" : false,
+    "name" : "appdata",
+    "path" : "/identity/alice/appdata",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : false,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285254,
+    "creator" : { "alias" : "alice",
+        "fname" : "Alice",
+        "lname" : "Mouser"
+      },
+    "creatorId" : "4da4d1f4c528272a64ce1a48",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a4d",
+    "lastEditDate" : 1302647285254,
+    "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+    "local" : false,
+    "name" : "local",
+    "path" : "/identity/alice/local",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : false,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285305,
+    "creator" : { "alias" : "alice",
+        "fname" : "Alice",
+        "lname" : "Mouser"
+      },
+    "creatorId" : "4da4d1f4c528272a64ce1a48",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a4e",
+    "lastEditDate" : 1302647285305,
+    "lastEditorId" : "4da4d1f4c528272a64ce1a48",
+    "local" : false,
+    "name" : "rss",
+    "path" : "/identity/alice/rss",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : true,
+        "dropDelete" : true,
+        "dropRead" : true,
+        "dropWrite" : true,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285498,
+    "creator" : { "alias" : "bob",
+        "fname" : "Bob",
+        "lname" : "Siddharta"
+      },
+    "creatorId" : "4da4d1f5c528272a64ce1a50",
+    "dropPermissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a51",
+    "lastEditDate" : 1302647285498,
+    "lastEditorId" : "4da4d1f5c528272a64ce1a50",
+    "local" : false,
+    "name" : "bob",
+    "path" : "/identity/bob",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : true,
+        "read" : true,
+        "write" : false
+      },
+    "creationDate" : 1302647285596,
+    "creator" : { "alias" : "bob",
+        "fname" : "Bob",
+        "lname" : "Siddharta"
+      },
+    "creatorId" : "4da4d1f5c528272a64ce1a50",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a52",
+    "lastEditDate" : 1302647285596,
+    "lastEditorId" : "4da4d1f5c528272a64ce1a50",
+    "local" : false,
+    "name" : "Inbox",
+    "path" : "/identity/bob/:inbox",
+    "permissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : false,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285652,
+    "creator" : { "alias" : "bob",
+        "fname" : "Bob",
+        "lname" : "Siddharta"
+      },
+    "creatorId" : "4da4d1f5c528272a64ce1a50",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a54",
+    "lastEditDate" : 1302647285652,
+    "lastEditorId" : "4da4d1f5c528272a64ce1a50",
+    "local" : false,
+    "name" : "appdata",
+    "path" : "/identity/bob/appdata",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : false,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285660,
+    "creator" : { "alias" : "bob",
+        "fname" : "Bob",
+        "lname" : "Siddharta"
+      },
+    "creatorId" : "4da4d1f5c528272a64ce1a50",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a55",
+    "lastEditDate" : 1302647285660,
+    "lastEditorId" : "4da4d1f5c528272a64ce1a50",
+    "local" : false,
+    "name" : "local",
+    "path" : "/identity/bob/local",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  },
+  { "actions" : { "delete" : false,
+        "dropDelete" : false,
+        "dropRead" : false,
+        "dropWrite" : false,
+        "read" : true,
+        "write" : true
+      },
+    "creationDate" : 1302647285773,
+    "creator" : { "alias" : "bob",
+        "fname" : "Bob",
+        "lname" : "Siddharta"
+      },
+    "creatorId" : "4da4d1f5c528272a64ce1a50",
+    "dropPermissions" : { "delete" : { "access" : "include",
+            "value" : [  ]
+          },
+        "read" : { "access" : "include",
+            "value" : [  ]
+          },
+        "write" : { "access" : "include",
+            "value" : [  ]
+          }
+      },
+    "filter" : "",
+    "id" : "4da4d1f5c528272a64ce1a56",
+    "lastEditDate" : 1302647285773,
+    "lastEditorId" : "4da4d1f5c528272a64ce1a50",
+    "local" : false,
+    "name" : "rss",
+    "path" : "/identity/bob/rss",
+    "permissions" : { "delete" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "read" : { "access" : "exclude",
+            "value" : [  ]
+          },
+        "write" : { "access" : "exclude",
+            "value" : [  ]
+          }
+      },
+    "template" : [  ]
+  }
+]}

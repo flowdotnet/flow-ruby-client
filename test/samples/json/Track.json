@@ -1,0 +1,26 @@
+{ "actions" : { "delete" : true,
+      "read" : true,
+      "write" : true
+    },
+  "creationDate" : 1302714264085,
+  "creatorId" : "000000000000000000000001",
+  "filterString" : "verb == 'FUCK'",
+  "from" : "/identity/alice/appdata/fmk/in",
+  "id" : "4da5d7988065de1c446aeaac",
+  "lastEditDate" : 1302714264085,
+  "lastEditorId" : "000000000000000000000001",
+  "permissions" : { "delete" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "read" : { "access" : "exclude",
+          "value" : [  ]
+        },
+      "write" : { "access" : "exclude",
+          "value" : [  ]
+        }
+    },
+  "to" : "/identity/alice/appdata/fmk/fuck",
+  "transformFunction" : { "copyAll" : true,
+      "joins" : [  ]
+    }
+}

@@ -1,0 +1,672 @@
+[
+   {
+      "id":"4da4d1f4c528272a64ce1a49",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f4c528272a64ce1a48",
+      "creatorId":"4da4d1f4c528272a64ce1a48",
+      "lastEditDate":1302647284965,
+      "creator":{
+         "lname":"Mouser",
+         "alias":"alice",
+         "fname":"Alice"
+      },
+      "creationDate":1302647284965,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "name":"alice",
+      "path":"/identity/alice",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":true,
+         "dropRead":true,
+         "dropWrite":true,
+         "dropDelete":true
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a4a",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f4c528272a64ce1a48",
+      "creatorId":"4da4d1f4c528272a64ce1a48",
+      "lastEditDate":1302647285014,
+      "creator":{
+         "lname":"Mouser",
+         "alias":"alice",
+         "fname":"Alice"
+      },
+      "creationDate":1302647285014,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"Inbox",
+      "path":"/identity/alice/:inbox",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":false,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":true,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a4c",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f4c528272a64ce1a48",
+      "creatorId":"4da4d1f4c528272a64ce1a48",
+      "lastEditDate":1302647285220,
+      "creator":{
+         "lname":"Mouser",
+         "alias":"alice",
+         "fname":"Alice"
+      },
+      "creationDate":1302647285220,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"appdata",
+      "path":"/identity/alice/appdata",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":false,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a4d",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f4c528272a64ce1a48",
+      "creatorId":"4da4d1f4c528272a64ce1a48",
+      "lastEditDate":1302647285254,
+      "creator":{
+         "lname":"Mouser",
+         "alias":"alice",
+         "fname":"Alice"
+      },
+      "creationDate":1302647285254,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"local",
+      "path":"/identity/alice/local",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":false,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a4e",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f4c528272a64ce1a48",
+      "creatorId":"4da4d1f4c528272a64ce1a48",
+      "lastEditDate":1302647285305,
+      "creator":{
+         "lname":"Mouser",
+         "alias":"alice",
+         "fname":"Alice"
+      },
+      "creationDate":1302647285305,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"rss",
+      "path":"/identity/alice/rss",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":false,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a51",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f5c528272a64ce1a50",
+      "creatorId":"4da4d1f5c528272a64ce1a50",
+      "lastEditDate":1302647285498,
+      "creator":{
+         "lname":"Siddharta",
+         "alias":"bob",
+         "fname":"Bob"
+      },
+      "creationDate":1302647285498,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "name":"bob",
+      "path":"/identity/bob",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":true,
+         "dropRead":true,
+         "dropWrite":true,
+         "dropDelete":true
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a52",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f5c528272a64ce1a50",
+      "creatorId":"4da4d1f5c528272a64ce1a50",
+      "lastEditDate":1302647285596,
+      "creator":{
+         "lname":"Siddharta",
+         "alias":"bob",
+         "fname":"Bob"
+      },
+      "creationDate":1302647285596,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"Inbox",
+      "path":"/identity/bob/:inbox",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":false,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":true,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a54",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f5c528272a64ce1a50",
+      "creatorId":"4da4d1f5c528272a64ce1a50",
+      "lastEditDate":1302647285652,
+      "creator":{
+         "lname":"Siddharta",
+         "alias":"bob",
+         "fname":"Bob"
+      },
+      "creationDate":1302647285652,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"appdata",
+      "path":"/identity/bob/appdata",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":false,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a55",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f5c528272a64ce1a50",
+      "creatorId":"4da4d1f5c528272a64ce1a50",
+      "lastEditDate":1302647285660,
+      "creator":{
+         "lname":"Siddharta",
+         "alias":"bob",
+         "fname":"Bob"
+      },
+      "creationDate":1302647285660,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"local",
+      "path":"/identity/bob/local",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":false,
+         "dropDelete":false
+      }
+   },
+   {
+      "id":"4da4d1f5c528272a64ce1a56",
+      "template":[
+
+      ],
+      "lastEditorId":"4da4d1f5c528272a64ce1a50",
+      "creatorId":"4da4d1f5c528272a64ce1a50",
+      "lastEditDate":1302647285773,
+      "creator":{
+         "lname":"Siddharta",
+         "alias":"bob",
+         "fname":"Bob"
+      },
+      "creationDate":1302647285773,
+      "dropPermissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"include"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"include"
+         }
+      },
+      "name":"rss",
+      "path":"/identity/bob/rss",
+      "permissions":{
+         "read":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "write":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         },
+         "delete":{
+            "value":[
+
+            ],
+            "access":"exclude"
+         }
+      },
+      "local":false,
+      "filter":"",
+      "actions":{
+         "read":true,
+         "write":true,
+         "delete":false,
+         "dropRead":false,
+         "dropWrite":false,
+         "dropDelete":false
+      }
+   }
+]

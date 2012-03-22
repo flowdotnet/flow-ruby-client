@@ -1,0 +1,373 @@
+
+>> require 'flow'
+=> true
+
+
+>> secret = "xxxxxxxxxx" 
+=> "xxxxxxxxxx"
+>> key = "0123456789012345678991234" 
+=> "0123456789012345678991234"
+>> id = "aaaaaa123e67a4bf5722dc1"
+=> "aaaaaa123e67a4bf5722dc1"
+>> 
+?> creds = Flow::Credentials.new(key, secret, id)
+=> #<Flow::Credentials:0x101848bc0 @actor="aaaaaa123e67a4bf5722dc1", @secret="xxxxxxxxxx", @key="0123456789012345678991234">
+>> c= Flow::Connection.new("http://localhost:8080/arcturus")
+=> #<Flow::Connection:0x10183ef08 @url=#<URI::HTTP:0x10183ec88 URL:http://localhost:8080/arcturus>
+
+
+
+#Create a user:
+
+
+>> user_response = c.create_user(creds, "test22@test.com", "thisismypassword", "this_is_thealiasIllbeknownasa")
+=> #<Flow::Response:0x101785f08 @code="201", @values={"head"=>{"messages"=>[[nil, "Your request has been processed successfully. A new resource has been created."]], "errors"=>[], "ok"=>true}, "body"=>{"creator"=>{"value"=>{"lname"=>{"value"=>"Mouser", "type"=>"string"}, "alias"=>{"value"=>"alice", "type"=>"string"}, "fname"=>{"value"=>"Alice", "type"=>"string"}}, "type"=>"map"}, "initialEmail"=>{"value"=>"test22@test.com", "type"=>"email"}, "lastEditDate"=>{"value"=>1305148075857, "type"=>"date"}, "id"=>{"value"=>"4dcafaab2fe65ceb5d5bd256", "type"=>"id"}, "creationDate"=>{"value"=>1305148075857, "type"=>"date"}, "identityIds"=>{"value"=>[{"value"=>"4dcafaab2fe65ceb5d5bd257", "type"=>"id"}], "type"=>"set"}, "permissions"=>{"value"=>{"delete"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "read"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "write"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}}, "type"=>"permissions"}, "creatorId"=>{"value"=>"4dcaf8fb2fe6ff56a70366e5", "type"=>"id"}, "email"=>{"value"=>"test22@test.com", "type"=>"email"}, "lastEditorId"=>{"value"=>"4dcaf8fb2fe6ff56a70366e5", "type"=>"id"}}}
+>> puts user_response.json
+{
+  "head": {
+    "messages": [
+      [
+        null,
+        "Your request has been processed successfully. A new resource has been created."
+      ]
+    ],
+    "errors": [
+
+    ],
+    "ok": true
+  },
+  "body": {
+    "creator": {
+      "value": {
+        "lname": {
+          "value": "Mouser",
+          "type": "string"
+        },
+        "alias": {
+          "value": "alice",
+          "type": "string"
+        },
+        "fname": {
+          "value": "Alice",
+          "type": "string"
+        }
+      },
+      "type": "map"
+    },
+    "initialEmail": {
+      "value": "test22@test.com",
+      "type": "email"
+    },
+    "lastEditDate": {
+      "value": 1305148075857,
+      "type": "date"
+    },
+    "id": {
+      "value": "4dcafaab2fe65ceb5d5bd256",
+      "type": "id"
+    },
+    "creationDate": {
+      "value": 1305148075857,
+      "type": "date"
+    },
+    "identityIds": {
+      "value": [
+        {
+          "value": "4dcafaab2fe65ceb5d5bd257",
+          "type": "id"
+        }
+      ],
+      "type": "set"
+    },
+    "permissions": {
+      "value": {
+        "delete": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "read": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "write": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        }
+      },
+      "type": "permissions"
+    },
+    "creatorId": {
+      "value": "4dcaf8fb2fe6ff56a70366e5",
+      "type": "id"
+    },
+    "email": {
+      "value": "test22@test.com",
+      "type": "email"
+    },
+    "lastEditorId": {
+      "value": "4dcaf8fb2fe6ff56a70366e5",
+      "type": "id"
+    }
+  }
+}
+=> nil
+
+>> user_response.head
+=> {"messages"=>[[nil, "Your request has been processed successfully. A new resource has been created."]], "errors"=>[], "ok"=>true}
+
+
+# Create a bucket
+>> bucket_response = c.create_bucket(creds, "my bucket", "/test/mypath", [{"name"=>"v1", "class"=>"email", "required"=>true}])
+=> #<Flow::Response:0x1017dd1e0 @code="201", @values={"head"=>{"messages"=>[[nil, "Your request has been processed successfully. A new resource has been created."]], "errors"=>[], "ok"=>true}, "body"=>{"local"=>{"value"=>false, "type"=>"boolean"}, "name"=>{"value"=>"my bucket", "type"=>"string"}, "creator"=>{"value"=>{"lname"=>{"value"=>"Mouser", "type"=>"string"}, "alias"=>{"value"=>"alice", "type"=>"string"}, "fname"=>{"value"=>"Alice", "type"=>"string"}}, "type"=>"map"}, "lastEditDate"=>{"value"=>1305148331758, "type"=>"date"}, "id"=>{"value"=>"4dcafbab2fe65ceb5d5bd25f", "type"=>"id"}, "creationDate"=>{"value"=>1305148331758, "type"=>"date"}, "template"=>{"value"=>[{"value"=>{"name"=>{"value"=>"v1", "type"=>"string"}, "required"=>{"value"=>true, "type"=>"boolean"}, "class"=>{"value"=>"email", "type"=>"string"}, "inferred"=>{"value"=>false, "type"=>"boolean"}}, "type"=>"constraint"}], "type"=>"constraints"}, "path"=>{"value"=>"/test/mypath", "type"=>"path"}, "permissions"=>{"value"=>{"delete"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "read"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "write"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}}, "type"=>"permissions"}, "creatorId"=>{"value"=>"4dcaf8fb2fe6ff56a70366e5", "type"=>"id"}, "dropPermissions"=>{"value"=>{"delete"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "read"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "write"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}}, "type"=>"permissions"}, "lastEditorId"=>{"value"=>"4dcaf8fb2fe6ff56a70366e5", "type"=>"id"}}}
+
+>> print bucket_response.json
+{
+  "head": {
+    "messages": [
+      [
+        null,
+        "Your request has been processed successfully. A new resource has been created."
+      ]
+    ],
+    "errors": [
+
+    ],
+    "ok": true
+  },
+  "body": {
+    "local": {
+      "value": false,
+      "type": "boolean"
+    },
+    "name": {
+      "value": "my bucket",
+      "type": "string"
+    },
+    "creator": {
+      "value": {
+        "lname": {
+          "value": "Mouser",
+          "type": "string"
+        },
+        "alias": {
+          "value": "alice",
+          "type": "string"
+        },
+        "fname": {
+          "value": "Alice",
+          "type": "string"
+        }
+      },
+      "type": "map"
+    },
+    "lastEditDate": {
+      "value": 1305148331758,
+      "type": "date"
+    },
+    "id": {
+      "value": "4dcafbab2fe65ceb5d5bd25f",
+      "type": "id"
+    },
+    "creationDate": {
+      "value": 1305148331758,
+      "type": "date"
+    },
+    "template": {
+      "value": [
+        {
+          "value": {
+            "name": {
+              "value": "v1",
+              "type": "string"
+            },
+            "required": {
+              "value": true,
+              "type": "boolean"
+            },
+            "class": {
+              "value": "email",
+              "type": "string"
+            },
+            "inferred": {
+              "value": false,
+              "type": "boolean"
+            }
+          },
+          "type": "constraint"
+        }
+      ],
+      "type": "constraints"
+    },
+    "path": {
+      "value": "/test/mypath",
+      "type": "path"
+    },
+    "permissions": {
+      "value": {
+        "delete": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "read": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "write": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        }
+      },
+      "type": "permissions"
+    },
+    "creatorId": {
+      "value": "4dcaf8fb2fe6ff56a70366e5",
+      "type": "id"
+    },
+    "dropPermissions": {
+      "value": {
+        "delete": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "read": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "write": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        }
+      },
+      "type": "permissions"
+    },
+    "lastEditorId": {
+      "value": "4dcaf8fb2fe6ff56a70366e5",
+      "type": "id"
+    }
+  }
+}=> nil
+
+
+# Create a track
+
+>> track_response = c.create_track(creds, "/test/mypath", "/system", "v1 =~ /a/","") 
+=> #<Flow::Response:0x10170cd88 @code="201", @values={"head"=>{"messages"=>[[nil, "Your request has been processed successfully. A new resource has been created."]], "errors"=>[], "ok"=>true}, "body"=>{"filterString"=>{"value"=>"v1 =~ /a/", "type"=>"string"}, "creator"=>{"value"=>{"lname"=>{"value"=>"Mouser", "type"=>"string"}, "alias"=>{"value"=>"alice", "type"=>"string"}, "fname"=>{"value"=>"Alice", "type"=>"string"}}, "type"=>"map"}, "from"=>{"value"=>"/test/mypath", "type"=>"path"}, "lastEditDate"=>{"value"=>1305148358642, "type"=>"date"}, "to"=>{"value"=>"/system", "type"=>"path"}, "id"=>{"value"=>"4dcafbc62fe65ceb5d5bd261", "type"=>"id"}, "creationDate"=>{"value"=>1305148358642, "type"=>"date"}, "permissions"=>{"value"=>{"delete"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "read"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}, "write"=>{"value"=>[], "type"=>"sortedSet", "access"=>"exclude"}}, "type"=>"permissions"}, "creatorId"=>{"value"=>"4dcaf8fb2fe6ff56a70366e5", "type"=>"id"}, "lastEditorId"=>{"value"=>"4dcaf8fb2fe6ff56a70366e5", "type"=>"id"}}}
+>> print track_response.json
+{
+  "head": {
+    "messages": [
+      [
+        null,
+        "Your request has been processed successfully. A new resource has been created."
+      ]
+    ],
+    "errors": [
+
+    ],
+    "ok": true
+  },
+  "body": {
+    "filterString": {
+      "value": "v1 =~ /a/",
+      "type": "string"
+    },
+    "creator": {
+      "value": {
+        "lname": {
+          "value": "Mouser",
+          "type": "string"
+        },
+        "alias": {
+          "value": "alice",
+          "type": "string"
+        },
+        "fname": {
+          "value": "Alice",
+          "type": "string"
+        }
+      },
+      "type": "map"
+    },
+    "from": {
+      "value": "/test/mypath",
+      "type": "path"
+    },
+    "lastEditDate": {
+      "value": 1305148358642,
+      "type": "date"
+    },
+    "to": {
+      "value": "/system",
+      "type": "path"
+    },
+    "id": {
+      "value": "4dcafbc62fe65ceb5d5bd261",
+      "type": "id"
+    },
+    "creationDate": {
+      "value": 1305148358642,
+      "type": "date"
+    },
+    "permissions": {
+      "value": {
+        "delete": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "read": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        },
+        "write": {
+          "value": [
+
+          ],
+          "type": "sortedSet",
+          "access": "exclude"
+        }
+      },
+      "type": "permissions"
+    },
+    "creatorId": {
+      "value": "4dcaf8fb2fe6ff56a70366e5",
+      "type": "id"
+    },
+    "lastEditorId": {
+      "value": "4dcaf8fb2fe6ff56a70366e5",
+      "type": "id"
+    }
+  }
+}=> nil
