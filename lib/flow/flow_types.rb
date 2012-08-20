@@ -119,7 +119,7 @@ module Flow
     self.create_fields(
       "to"=>F_Path,
       "permissions"=>F_Permissions,
-      "transformFunction"=>F_Transform,
+      "transformFunction"=>F_String,
       "from"=>F_Path,
       "filterString"=>F_String)
 
